@@ -24,6 +24,6 @@ describe('Favorite Food Filter', function () {
 			var results = $filter('favoriteFood')(mockedList, 'pizza');
 
 			expect(results.length).toBe(1);
-			expect(results[0].favoriteFood).toBe('pizza');
+			expect(results[0].name).toBe('Name2');
 	});
 });
